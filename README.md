@@ -1,5 +1,5 @@
 # Reward-pytorch
-Pytorch implementations of algorithms associated with reward learning, e.g., inverse reinforcement learning, preference-based reinforcement learning, etc.
+[WIP] Pytorch implementations of algorithms associated with reward learning, e.g., inverse reinforcement learning, preference-based reinforcement learning, etc.
 
 ## Implemented Algorithms
 

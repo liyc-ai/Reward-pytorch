@@ -1,0 +1,36 @@
+work_dir: ?
+seed: 1893
+device: cuda:0
+description: ""
+default_th_dtype: float16
+
+preload_model_path: model/gail_hopper.pt
+
+# env
+env:
+  id: Hopper-v4
+  info:
+    state_shape: ?
+    action_shape: ?
+    action_dtype: ?
+
+log:
+  record_param:
+    - seed
+    - agent.algo
+    - env.id
+
+train:
+  max_steps: 1000_000
+  eval_interval: 5_000
+
+defaults:
+  - agent: irl/gail
+  - override hydra/hydra_logging: disabled  
+  - override hydra/job_logging: disabled
+  - _self_
+
+hydra:  
+  output_subdir: null
+  run:
+    dir: .

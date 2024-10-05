@@ -22,7 +22,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/BepfCp/Reward-pytorch.git
+git clone https://github.com/liyc-ai/Reward-pytorch.git
 cd Reward-pytorch
 pip install -e .
 ```

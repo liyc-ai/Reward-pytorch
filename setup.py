@@ -19,7 +19,7 @@ setup(
     description="A clean code base for reward learning.",
     author="Yi-Chen Li",
     author_email="ychenli.X@gmail.com",
-    url="https://github.com/BepfCp/Reward-pytorch",
+    url="https://github.com/liyc-ai/Reward-pytorch",
     packages=find_packages(include=["rwkit*"]),
     python_requires="<3.11,>=3.7",
     install_requires=[
@@ -30,6 +30,6 @@ setup(
         "setuptools",
         "torch",
         "tqdm",
-        "rlplugs @ git+https://github.com/BepfCp/rlplugs@main",
+        "rlplugs @ git+https://github.com/liyc-i/DRL-plugs@main",
     ],
 )
